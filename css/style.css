@@ -1,0 +1,72 @@
+#pebungkus{
+	margin: 5% 20%;
+}
+.btn{
+	margin-bottom: 2%;
+
+}
+table{
+	text-align: center;
+	margin: 0 auto;
+	border-spacing: 2px;
+}
+.navbar{
+	padding: 0 1rem;
+}
+.nav-item{
+	padding: 5px;
+}
+.nav-item:hover{
+	background-color: orange;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+/* uutuk struk */
+
+.luar{
+	height: 480px;
+	width: 300px;
+	border: 3px dashed black;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 30px;
+}
+
+.idstruk{
+	border: 2px solid black;
+	height: 60px;
+	width: 200px;
+	margin: 50px 50px;
+
+}
+
+.isi{
+	text-align: center;
+	font-size: 50px;
+}
+
+#tablestruk{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: start;
+
+}
+
+.footerstruk{
+	margin-top: 50px;
+	font-size: 15px;
+
+
+}
+
+/* husus print */
+@media print {
+	body * {visibility: hidden;}
+	.print {visibility: visible;}
+	@page {
+		size: 110mm 220mm;
+	}	
+}
