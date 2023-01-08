@@ -28,6 +28,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Setup PHP Action
+        uses: shivammathur/setup-php@2.23.0
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
